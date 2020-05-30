@@ -12,7 +12,8 @@ local finalValue = switch(name)
 		return "joe"
 	end)
 	.case("jimmy", function ()
-		return "jimmy1"
+		print("oh look!  its jimmy")
+		return "jimmy"
 	end)
 	.response
 	
